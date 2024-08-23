@@ -6,7 +6,6 @@ const сlosureJsNestedLi = document.querySelector('.item_two .props__item_four')
 const liJsTypeThreeElement = liJsType
     .querySelector('.props__item:nth-child(3)');
 const parentChangeElement = document.querySelectorAll('.content .props__list');
-console.log('parentChangeElement: ', parentChangeElement);
 const cloneList = parentChangeElement[3].cloneNode(true);
 const contentAsync = document.querySelector('.item_five .content');
 const es6LastElement = parentChangeElement[5]
